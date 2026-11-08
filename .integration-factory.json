@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "a9d38d819878bf08401608127667b85614406aafa3913a6f0c80f8613d71a14c",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://4events.stoplight.io/api/v1/projects/4events/api/nodes/reference/API.yaml"
+  ],
+  "id": "4events-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "4.events MCP setup and connection checker",
+  "description": "Generate 4.events MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "4events",
+  "appName": "4.events",
+  "providerDocs": "https://4events.stoplight.io/api/v1/projects/4events/api/nodes/reference/API.yaml",
+  "providerWebsite": "https://www.4.events/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://www.4.events/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-4events-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
