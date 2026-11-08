@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-4events",
+      "description": "Connect AI agents to 4.events using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-4events/SKILL.md": "54f8bfcd76143845f2eb20d16a121e2957e0df10e5950319e3bb1802408e673a"
+  }
+}
